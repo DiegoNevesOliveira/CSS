@@ -45,6 +45,13 @@ img[src*="logo-vertical.png"] {
     word-break: break-word;
 }
 
+/* Estilização dos alertas */
+[fd-element="alert"] .alert {
+    background: linear-gradient(90deg, #0861a4, #0b90d2, #0ebeff);
+    color: #003366;
+    border: none;
+}
+
 /* Estilo para a linha verde sólida */
 [fd-element="horizontal-rule"] .horizontal-rule {
     background: #008000;
