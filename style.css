@@ -62,7 +62,7 @@ button[file-upload-multiple] {
 }
 
 /* Botão de ajuda */
-.help-button {
+.form.help {
     margin-left: 8px;
     width: 18px;
     height: 18px;
@@ -83,7 +83,7 @@ button[file-upload-multiple] {
     transition: all 0.3s ease;
 }
 
-.help-button:hover {
+.form.help:hover {
     background: #007bff;
     color: #fff;
 }
