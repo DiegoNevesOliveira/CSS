@@ -1,3 +1,50 @@
+/*
+*Centralização do titulo
+*/
+[key="logopmp"] {
+    left: 0;
+    top: 50%;
+    width: 220px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+[key="logopmp"] img {
+    width: 60px;
+    height: auto;
+    display: block;
+}
+
+img[src*="logo-vertical.png"] {
+    width: 200px;
+    height: auto;
+    max-height: 200px;
+    object-fit: contain;
+    display: block;
+}
+
+[key="titulo"].schema-form-h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+
+[key="titulo"] h1.ng-binding {
+    margin: 0;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
+}
+
 /* Estilização dos alertas */
 [fd-element="alert"] .alert {
     background: linear-gradient(90deg, #0861a4, #0b90d2, #0ebeff);
