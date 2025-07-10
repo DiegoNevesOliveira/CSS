@@ -78,6 +78,23 @@ img[src*="logo-vertical.png"] {
     color: #fff;
 }
 
+/*
+* Switche
+*/
+/* Apenas checkboxes dentro do tiposBeneficios */
+div[key="art299"] input[type="checkbox"] {
+    width: 40px;
+    height: 20px;
+    appearance: none;
+    background-color: #c6c6c6;
+    border-radius: 20px;
+    position: relative;
+    outline: none;
+    transition: background-color 0.3s, background 0.3s;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 /* Botão deslizante */
 div[key="art299"] input[type="checkbox"]::before {
     content: "";
