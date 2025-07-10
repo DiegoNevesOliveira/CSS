@@ -119,32 +119,33 @@ div[key="art299"] input[type="checkbox"]:checked {
 div[key="art299"] input[type="checkbox"]:checked::before {
     transform: translateX(20px);
 }
-/* Estilo para o container do parágrafo de validação */
-div.form-element[paragraph-validation] {
-    border-left: 4px solid #f44336; /* Borda vermelha à esquerda */
-    padding-left: 10px;
-    margin-bottom: 15px;
+/* Container principal (apenas o elemento com key="element_51460") */
+div.form-element[key="element_51460"] {
+    border-left: 4px solid #f44336; /* Borda vermelha */
     background-color: #ffebee; /* Fundo vermelho claro */
     color: #d32f2f; /* Texto vermelho escuro */
+    padding: 12px;
+    margin: 10px 0;
     border-radius: 4px;
-    padding: 10px;
 }
 
-/* Estilo para o texto do parágrafo */
-div.form-element[paragraph-validation] p {
+/* Elementos filhos DIRETOS (evita vazamento) */
+div.form-element[key="element_51460"] > .element-cover,
+div.form-element[key="element_51460"] > label.control-label,
+div.form-element[key="element_51460"] > p,
+div.form-element[key="element_51460"] > span.ng-binding {
     margin: 0;
     color: inherit; /* Herda a cor do container */
 }
 
-/* Estilo para o label quando visível */
-div.form-element[paragraph-validation] label.control-label {
-    color: #d32f2f;
+/* Label destacado */
+div.form-element[key="element_51460"] > label.control-label {
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     display: block;
 }
 
-/* Estilo para o span quando visível */
-div.form-element[paragraph-validation] span.ng-binding {
-    color: inherit;
+/* Parágrafo (se houver conteúdo dentro do <p>) */
+div.form-element[key="element_51460"] > p {
+    line-height: 1.5;
 }
