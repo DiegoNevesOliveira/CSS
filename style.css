@@ -54,14 +54,14 @@ img[src*="logo-vertical.png"] {
 
 [fd-element="horizontal-rule"] .horizontal-rule {
     border: none;
-    height: 8px;
+    height: 12px;  /* Aumentei a altura para 12px */
     background-image: repeating-linear-gradient(
         45deg,
         transparent,
-        transparent 4px,
-        black 4px,
-        black 8px
+        transparent 6px,  /* Ajustei para 6px para manter a proporção */
+        green 6px,       /* Substituí black por green */
+        green 12px       /* Ajustei para 12px */
     );
-    background-size: 8px 8px;
+    background-size: 12px 12px;  /* Ajustei o tamanho do padrão */
     background-repeat: repeat-x;
 }
