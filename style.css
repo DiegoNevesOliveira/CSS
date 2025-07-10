@@ -59,3 +59,8 @@ img[src*="logo-vertical.png"] {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+[fd-element] .fa-question-circle.help {
+  color: #007bff !important;
+}
+
