@@ -51,3 +51,11 @@ img[src*="logo-vertical.png"] {
     color: #003366;
     border: none;
 }
+
+[fd-element="horizontal-rule"] .horizontal-rule {
+  height: 2px;
+  background-color: #008000;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
