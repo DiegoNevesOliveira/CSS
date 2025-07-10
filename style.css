@@ -53,10 +53,12 @@ img[src*="logo-vertical.png"] {
 }
 
 /* Estilo para a linha verde sólida */
-[fd-element="horizontal-rule"] .horizontal-rule {
+[fd-element="horizontal-rule"] hr.horizontal-rule {
     height: 0.1rem;
     background-color: #008000;
     border: none;
     margin: 0;
     padding: 0;
+    color: #008000;
+    border-top: 0;
 }
