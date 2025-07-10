@@ -120,30 +120,30 @@ div[key="art299"] input[type="checkbox"]:checked::before {
     transform: translateX(20px);
 }
 
-/* Container principal (centralizado) */
+/* Container principal (azul) */
 div.form-element[key="element_51460"] {
-    border-left: 4px solid #f44336;
-    background-color: #ffebee;
-    color: #d32f2f;
+    border-left: 4px solid #2196F3; /* Azul */
+    background-color: #E3F2FD; /* Azul claro */
+    color: #1565C0; /* Azul escuro */
     padding: 12px;
     margin: 10px 0;
     border-radius: 4px;
-    text-align: center; /* Centraliza texto */
+    text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente (opcional) */
+    align-items: center;
+    justify-content: center;
 }
 
-/* Elementos filhos (herdam centralização) */
+/* Elementos filhos */
 div.form-element[key="element_51460"] > .element-cover,
 div.form-element[key="element_51460"] > label.control-label,
 div.form-element[key="element_51460"] > p,
 div.form-element[key="element_51460"] > span.ng-binding {
     margin: 0;
     color: inherit;
-    width: 100%; /* Garante que ocupem toda a largura do container */
-    text-align: center; /* Força centralização do texto */
+    width: 100%;
+    text-align: center;
 }
 
 /* Label destacado */
@@ -152,8 +152,8 @@ div.form-element[key="element_51460"] > label.control-label {
     margin-bottom: 8px;
 }
 
-/* Parágrafos (com largura máxima para melhor leitura) */
+/* Parágrafos */
 div.form-element[key="element_51460"] > p {
     line-height: 1.5;
-    max-width: 80%; /* Opcional: evita linhas muito longas */
+    max-width: 80%;
 }
