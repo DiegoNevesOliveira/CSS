@@ -52,9 +52,11 @@ img[src*="logo-vertical.png"] {
     border: none;
 }
 
+/* Estilo para a linha verde sólida */
 [fd-element="horizontal-rule"] .horizontal-rule {
-    border: none;
-    height: 8px;
+    height: 0.1rem;
     background-color: #008000;
-    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
