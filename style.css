@@ -57,8 +57,8 @@ img[src*="logo-vertical.png"] {
   height: 8px;
   background-image: repeating-linear-gradient(
     45deg,
-    red,
-    red 5px,
+    green,
+    green 5px,
     transparent 5px,
     transparent 10px
   );
