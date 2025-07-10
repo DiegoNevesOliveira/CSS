@@ -52,7 +52,7 @@ img[src*="logo-vertical.png"] {
     border: none;
 }
 
-[fd-element="horizontal-rule"] hr {
+[fd-element="horizontal-rule"] .horizontal-rule {
   border: none;
   height: 8px;
   background-image: repeating-linear-gradient(
