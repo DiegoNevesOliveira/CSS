@@ -119,70 +119,32 @@ div[key="art299"] input[type="checkbox"]:checked {
 div[key="art299"] input[type="checkbox"]:checked::before {
     transform: translateX(20px);
 }
-
-<style>
-.toggle-wrapper {
-  position: relative;
-  margin-bottom: 15px;
-  font-family: sans-serif;
+/* Estilo para o container do parágrafo de validação */
+div.form-element[paragraph-validation] {
+    border-left: 4px solid #f44336; /* Borda vermelha à esquerda */
+    padding-left: 10px;
+    margin-bottom: 15px;
+    background-color: #ffebee; /* Fundo vermelho claro */
+    color: #d32f2f; /* Texto vermelho escuro */
+    border-radius: 4px;
+    padding: 10px;
 }
 
-/* Oculta o checkbox */
-.toggle-checkbox {
-  display: none;
+/* Estilo para o texto do parágrafo */
+div.form-element[paragraph-validation] p {
+    margin: 0;
+    color: inherit; /* Herda a cor do container */
 }
 
-/* Estilo do botão de toggle */
-.toggle-label {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-weight: bold;
-  color: #0056b3;
-  padding: 10px;
-  border: 1px solid #007bff;
-  border-radius: 6px;
-  background-color: #f5faff;
-  transition: background 0.3s;
+/* Estilo para o label quando visível */
+div.form-element[paragraph-validation] label.control-label {
+    color: #d32f2f;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
 }
 
-.toggle-label::before {
-  content: '▶';
-  margin-right: 8px;
-  transition: transform 0.3s ease;
+/* Estilo para o span quando visível */
+div.form-element[paragraph-validation] span.ng-binding {
+    color: inherit;
 }
-
-.toggle-checkbox:checked + .toggle-label::before {
-  content: '▼';
-  transform: rotate(90deg);
-}
-
-/* Conteúdo visível ou oculto */
-.toggle-content {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transition: max-height 0.4s ease, opacity 0.4s ease;
-  padding-left: 20px;
-}
-
-.toggle-checkbox:checked ~ .toggle-content {
-  max-height: 1000px;
-  opacity: 1;
-  margin-top: 10px;
-}
-</style>
-
-<!-- Toggle control -->
-<div class="toggle-wrapper" key="element_57244">
-  <input type="checkbox" id="toggle-paragrafo" class="toggle-checkbox">
-  <label for="toggle-paragrafo" class="toggle-label">Parágrafo</label>
-
-  <!-- Conteúdo expansível -->
-  <div class="toggle-content">
-    <p>Lorem ipsum dolor sit amet. Est voluptas molestiae et distinctio possimus ex rerum enim non libero vitae non pariatur possimus. Ea voluptatem quia ut sint minus est quas Quis et illum unde est tempora nihil.</p>
-    <p>Qui velit explicabo a internos consequatur nam reiciendis laborum. Eum voluptas ipsa est magnam internos eum blanditiis numquam in explicabo iure quo impedit molestias et voluptas accusantium. Et facilis quod qui voluptatem aliquid et quidem aliquam non dolorum omnis sit doloremque iste cum voluptatem repellendus eum quos quaerat.</p>
-    <p>Vel consectetur nihil qui repudiandae illum ea architecto magnam. Hic voluptatem fuga ea nostrum voluptates in voluptatem quia non ratione veniam.</p>
-  </div>
-</div>
-
