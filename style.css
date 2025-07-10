@@ -60,7 +60,22 @@ img[src*="logo-vertical.png"] {
   padding: 0 !important;
 }
 
-[fd-element] .fa-question-circle.help {
-  color: #007bff !important;
+.help {
+    color: #007bff;
+    cursor: help;
+    transition: all 0.3s ease;
 }
 
+.help:hover {
+    color: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Estilo para o tooltip */
+.fd-tooltip-small {
+    background-color: #007bff !important;
+    color: white !important;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
