@@ -52,10 +52,10 @@ img[src*="logo-vertical.png"] {
     border: none;
 }
 
-[fd-element="horizontal-rule"] .horizontal-rule {
-  height: 2px;
-  background-color: #008000;
-  border: none;
-  margin: 0;
-  padding: 0;
+[fd-element="horizontal-rule"] hr {
+  height: 2px !important;
+  background-color: #008000 !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
