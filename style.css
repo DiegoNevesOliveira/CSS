@@ -53,15 +53,8 @@ img[src*="logo-vertical.png"] {
 }
 
 [fd-element="horizontal-rule"] .horizontal-rule {
-  border: none;
-  height: 8px;
-  background-image: repeating-linear-gradient(
-    45deg,
-    green,
-    green 5px,
-    transparent 5px,
-    transparent 10px
-  );
-  background-size: 10px 8px;
-  background-repeat: repeat-x;
+    border: none;
+    height: 8px;
+    background-color: #008000;
+    width: 100%;
 }
