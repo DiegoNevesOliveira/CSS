@@ -52,6 +52,7 @@ img[src*="logo-vertical.png"] {
     border: none;
 }
 
+/* Estilização da Linha */
 [fd-element="horizontal-rule"] hr {
   height: 2px !important;
   background-color: #ff0000 !important;
